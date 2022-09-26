@@ -4,13 +4,13 @@ class politicianDataOperatorRunner{
 	
 	System.out.println("main start");
 	
-	templeDataOperator.save("modi");
-	templeDataOperator.save("yogi");
-	templeDataOperator.save("shah");
-	templeDataOperator.save("yatnal");
-	templeDataOperator.save("bommai");
+	politicianDataOperator.save("modi");
+	politicianDataOperator.save("yogi");
+	politicianDataOperator.save("shah");
+	politicianDataOperator.save("yatnal");
+	politicianDataOperator.save("bommai");
 	
-	movieDataOperator.displayDetails();
+	politicianDataOperator.displayDetails();
 	
 	System.out.println("main end");
 	

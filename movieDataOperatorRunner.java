@@ -4,11 +4,11 @@ class movieDataOperatorRunner{
 	
 	System.out.println("main start");
 	
-	templeDataOperator.save("A");
-	templeDataOperator.save("UPENDRA");
-	templeDataOperator.save("SUPER");
-	templeDataOperator.save("UPPI2");
-	templeDataOperator.save("UI");
+	movieDataOperator.save("A");
+	movieDataOperator.save("UPENDRA");
+	movieDataOperator.save("SUPER");
+	movieDataOperator.save("UPPI2");
+	movieDataOperator.save("UI");
 	
 	movieDataOperator.displayDetails();
 	

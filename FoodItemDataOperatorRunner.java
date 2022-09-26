@@ -4,11 +4,11 @@ class FoodItemDataOperatorRunner{
 	
 	System.out.println("main start");
 	
-	templeDataOperator.save("milk");
-	templeDataOperator.save("curd");
-	templeDataOperator.save("bread");
-	templeDataOperator.save("rice");
-	templeDataOperator.save("biscuit");
+	FoodItemDataOperator.save("milk");
+	FoodItemDataOperator.save("curd");
+	FoodItemDataOperator.save("bread");
+	FoodItemDataOperator.save("rice");
+	FoodItemDataOperator.save("biscuit");
 	
 	FoodItemDataOperator.displayDetails();
 	

@@ -11,13 +11,14 @@ class GraduateDataOperator
 	
     GraduateNames[position]=name;	
 	
-	System.out.println("GraduateName in postion "+position+" is "+GraduateNames[position]);
+	System.out.println("GraduateName in position "+position+" is "+GraduateNames[position]);
 		position++;
 		
 	System.out.println("save end");
 	 
  } 
     	static void displayDetails()
+		
 		
 	{
 		System.out.println("displayDetails start");
